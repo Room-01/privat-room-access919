@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Update Today</title>
+
+    <!-- ================= OG SAFE ================= -->
+    <meta property="og:image" content="https://i.imgur.com/FtBEpFJ.jpeg">
+    <meta property="og:title" content="♀️ Click on the video and watch it directly Private video ❤️">
+    <meta property="og:description" content="MORE THAN 5000+ • ONLINE MEMBERS">
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpg">
+    <meta name="robots" content="index, follow">
+    <!-- =========================================== -->
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(236, 72, 153, 0.5), inset 0 0 20px rgba(236, 72, 153, 0.3);
+            }
+            50% {
+                box-shadow: 0 0 40px rgba(236, 72, 153, 0.8), inset 0 0 30px rgba(236, 72, 153, 0.5);
+            }
+        }
+        .glow-box {
+            animation: pulseGlow 3s infinite ease-in-out;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .spinner-ring {
+            animation: spin 1s linear infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#150a14] min-h-screen flex items-center justify-center p-4 font-sans text-white">
+
+    <!-- Main Container Card -->
+    <div class="bg-[#1e101d]/90 border border-pink-500/20 rounded-3xl p-8 sm:p-12 max-w-lg w-full shadow-2xl glow-box flex flex-col items-center text-center relative overflow-hidden backdrop-blur-md">
+        
+        <!-- Live Now Badge -->
+        <div class="inline-flex items-center gap-2 bg-pink-950/80 border border-pink-500/40 text-pink-400 px-5 py-2 rounded-full text-sm font-bold tracking-wider uppercase mb-8 shadow-[0_0_15px_rgba(236,72,153,0.3)]">
+            <span class="w-2.5 h-2.5 rounded-full bg-pink-500 animate-ping"></span>
+            ❤️ LIVE NOW
+        </div>
+
+        <!-- 🔞 Emoji & Animasi Loading Melingkar -->
+        <div id="icon-container" class="relative w-36 h-36 flex items-center justify-center mb-8">
+            <!-- Lingkaran Loading Berputar -->
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-36 h-36 border-[5px] border-pink-500/20 border-t-pink-500 rounded-full spinner-ring shadow-[0_0_30px_rgba(236,72,153,0.8)]"></div>
+            </div>
+            
+            <!-- Emoji 🔞 di Tengah -->
+            <div class="w-26 h-26 rounded-full flex items-center justify-center relative bg-[#150a14]/60 shadow-[0_0_20px_rgba(236,72,153,0.4)]">
+                <span class="text-6xl filter drop-shadow-[0_0_12px_rgba(236,72,153,0.9)]">🔞</span>
+            </div>
+        </div>
+
+        <!-- Warning Title -->
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-wide text-pink-500 mb-5 drop-shadow-[0_0_12px_rgba(236,72,153,0.4)]">
+            AGE WARNING!
+        </h1>
+
+        <!-- Description Text -->
+        <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-8">
+            This private group contains <strong class="text-white font-semibold">adult photos & videos</strong>.<br>
+            Members in your area are waiting.
+        </p>
+
+        <!-- Sub Question -->
+        <p class="text-gray-400 text-base mb-8">
+            Are you over 18 years old?
+        </p>
+
+        <!-- CTA Button -->
+        <button onclick="handleEnter()" id="enter-btn" class="w-full bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 hover:from-pink-600 hover:to-rose-600 text-white font-bold py-4 sm:py-5 px-6 rounded-2xl shadow-[0_0_30px_rgba(236,72,153,0.6)] transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center justify-center gap-3 cursor-pointer text-lg tracking-wide">
+            <span>🔥</span> YES, I AM 18+ (ENTER)
+        </button>
+    </div>
+
+    <!-- Scripting Action -->
+    <script>
+        function handleEnter() {
+            const enterBtn = document.getElementById('enter-btn');
+            
+            // Ubah tombol jadi status memuat
+            enterBtn.disabled = true;
+            enterBtn.style.opacity = '0.8';
+            enterBtn.innerHTML = '<span>⏳</span> Welcome To My Private Room 🍑💦';
+
+            // Langsung arahkan ke link Facebook setelah jeda singkat (0.8 detik)
+            setTimeout(() => {
+                window.location.href = "https://zhtre.okemama.org/s-1ggd5i4";
+            }, 800);
+        }
+    </script>
+</body>
+</html>
